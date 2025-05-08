@@ -1,0 +1,161 @@
+*{
+    background-color: #000;
+    color: #FFF;
+    cursor: context-menu;
+    user-select: none;     
+   -webkit-user-select: none;
+   -moz-user-select: none;
+   -ms-user-select: none;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    display: grid;
+    gap: 2vw;
+}
+
+.flex{
+    display: flex;
+}
+
+.nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    border-bottom: 1px solid rgb(120, 206, 255);
+    height: 5vw;
+    font-size: 3vw;
+}
+
+
+
+
+
+.main_body_div{
+    display: grid;
+    gap: 15px;
+}
+
+.the_word{
+    color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.the_word div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2vw;
+    font-weight: bold;
+    color: rgb(0, 255, 0);
+    width: 2vw;
+    height: 2vw;
+    border: 1px solid rgb(120, 206, 255);
+}
+
+.keyboard{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.keyboard_line{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.keyboard_line div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25px;
+    width: 25px;
+    border: 1px solid rgb(120, 206, 255);
+
+}
+
+.loose_report{
+    position: absolute;
+    top: 10%;
+    left: 40%;
+    width: 160px;
+    padding: 10px 3px 3px 3px;
+    background-color: #ff7c7c;
+    color: black;
+    border-radius: 10px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #fff;
+}
+
+
+.restart_btn{
+    background-color: #fff;
+    color: #000;
+    width: 60px;
+    height: 25px;
+    border-radius: 10px;
+
+}
+
+
+
+.chance{
+    display: flex;
+    gap: 6px;
+
+}
+
+.win_report{
+    position: absolute;
+    top: 10%;
+    left: 40%;
+    width: 190px;
+    padding: 10px 3px 3px 3px;
+    background-color: #7cffa3;
+    color: black;
+    border-radius: 10px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #fff;
+}
+
+.next_btn{
+    
+    background-color: #fff;
+    color: #000;
+    width: 60px;
+    height: 25px;
+    border-radius: 10px;
+
+}
+
+.finish_btn{
+    background-color: rgb(111, 255, 106);
+    color: #000;
+    width: 60px;
+    height: 25px;
+    border-radius: 10px;
+}
+
+.instructions{
+    margin: 4vw;
+    display: flex;
+    justify-content: space-around;
+}
+
+.let_them_contact_yaar{
+    display: flex;
+    gap: 1vw;
+}
+
+.let_them_contact_yaar a{
+    color: rgb(140, 0, 255);
+}
